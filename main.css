@@ -1,0 +1,51 @@
+.dcard {
+    width: 130px;
+    margin: 13px 10px;
+}
+.dimg {
+    height: 100px;
+}
+.dleft, .dusing, .dused {
+    display: flex;
+}
+.sbtn {
+    margin-left: auto;
+}
+.used-dimg {
+    height: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.using-dimg {
+    height: 100px;
+}
+#main {
+    background-color: #edf9f9;
+    float:left;
+    width: 1250px;
+    margin-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#used {
+    margin-right: 15px;
+    background-color: #edf9f9;
+    height: 600px;
+    padding: 5px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+#using {
+    min-width: 1020px;
+    background-color: #fde5e5;
+    position: absolute;
+    border: 1px solid black;
+    height: 100px;
+    padding: 5px 10px;
+    left: 200px;
+    top: 690px;
+    display: flex;
+    flex-direction: row-reverse;
+}
